@@ -1,6 +1,8 @@
 <?php
 namespace Andrew\Blog\Views;
 
+use Andrew\Blog\Models\Config;
+
 class View {
     protected $controller;
 
@@ -11,9 +13,11 @@ class View {
     public function process($data = null) {}
 
     protected function generate($template, $data = null) {
-        $templateBase = 'view/';
-        $resourcesBase = "/";
-        $siteBase = "/";
+        $config = new Config();
+        
+        $templateBase = $config->templateBase;
+        $resourcesBase = $config->resourcesBase;
+        $siteBase = $config->siteBase;
         require_once $templateBase . $template;
     }
 

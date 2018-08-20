@@ -18,10 +18,12 @@ class DatabaseModel extends Model {
      * @throws \PDOException if can't connect to the database
      */
     public function __construct() {
-        $dbHost = DatabaseModel::DB_HOST;
-        $dbUser = DatabaseModel::DB_USER;
-        $dbPassword = DatabaseModel::DB_PASSWORD;
-        $dbName = DatabaseModel::DB_NAME;
+        $config = new Config();
+        
+        $dbHost = $config->dbHost;
+        $dbUser = $config->dbUser;
+        $dbPassword = $config->dbPassword;
+        $dbName = $config->dbName;
         $this->connection = new \PDO(
             "mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword
         );
