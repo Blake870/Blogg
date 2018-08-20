@@ -1,0 +1,209 @@
+body {
+    padding-top: 3.5rem;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.thumb {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.btn-secondary {
+    margin-top: 15px;
+}
+.card-img-top {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.card {
+    margin-bottom: 25px;
+}
+.navSign {
+    padding: 0rem 0 0.5rem;
+}
+.blogShort {
+    margin-top: 20px;
+}
+.authot-date {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #007bff;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.comments-list .media {
+    border-bottom: 1px dotted #ccc;
+}
+.media>.pull-right {
+    margin-left: 10px;
+}
+.media-body {
+    padding-bottom: 20px;
+}
+.media-body p {
+    margin: 0;
+}
+.media {
+    margin-top: 15px;
+}
+.user_name {
+    font-size: 14px;
+    font-weight: bold;
+}
+.media-heading {
+    margin: 0 0 5px;
+}
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media img {
+    margin-right: 20px;
+    width: 70px;
+}
+.form-comment {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.form-comment .btn {
+    margin-top: 15px;
+}
+.buttonComment {
+    padding: 3px 6px;
+    font-size: 10px;
+}
+.hidden {
+    display: none;
+}
+.updateComment {
+    float: right;
+    margin-top: 5px;
+}
+.cancelEditComment {
+    display: none;
+    margin-top: 5px;
+}
+.alert:not(".emailValidRes") {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -25px;
+}
+.editButtonsBlock {
+    height: 26px;
+    width: 100%;
+}
+.postForm {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.form-control-file {
+    display: none;
+}
+.updatePost {
+    float: right;
+}
+.addFile, .updatePost {
+    margin-top: 15px;
+}
+.titleInput {
+    margin-bottom: 15px;
+}
+.authorInput {
+    margin-bottom: 15px;
+}
+.blogShort {
+    position: relative;
+}
+.buttonViewPost {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.buttonEditPost {
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+.postForm img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.addFile {
+    width: 25%;
+    float: left;
+}
+.buttonAddImage {
+    position: relative;
+    width: 100%;
+}
+.buttonAddImage .btn-primary {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    font-size: 25px;
+    background-color: #5a6268;
+}
+.buttonAddImage:hover .btn-primary {
+    display: block;
+}
+.postForm textarea {
+    width: 74%;
+    height: 220px;
+    float: right;
+}
+input.topForm {
+    margin-bottom: -1px !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+input.bottomForm {
+    margin-bottom: 15px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.emailValidRes, .passValidRes {
+    margin-top: 15px;
+    display: none;
+}
+.form-control.error, .form-control.error:focus {
+    border-color: #ff9e8094;
+    box-shadow: 0 0 0 0.2rem rgba(255, 18, 0, 0.25);
+}
+.form-control.good, .form-control.good:focus {
+    border-color: #a4f5a7;
+    box-shadow: 0 0 0 0.2rem rgba(50, 215, 67, 0.25);
+}
+.alert-success {
+    margin: auto;
+    margin-top: 25px;
+}
+.btn-addnew {
+    background: no-repeat;
+    border: 0;
+    padding: 0.25rem 1.5rem;
+    width: 158px;
+    text-align: left;
+    cursor: pointer;
+}
+.btn-addnew:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
